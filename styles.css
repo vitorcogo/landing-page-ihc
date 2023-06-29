@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background: #1D4975;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ucs-logo {
+  height: 60px;
+  width: 75.542px;
+  background-image: url('./assets/logo_ucs_branco.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  position: relative;
+  padding: 50px;
+  width: 100%;
+  min-height: 700px;
+  background-image: url('./assets/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.banner h1 {
+  z-index: 1;
+  max-width: 1200px;
+  color: #FFF;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+section {
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section .container {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+.topics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.topic {
+  padding: 12px 18px;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.info-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  border-radius: 10px;
+  gap: 26px;
+}
+
+.blue {
+  background-color: #1D4975;
+}
+
+.red {
+  background-color: #AF4949;;
+}
+
+.info-card h1 {
+  color: #FFF;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.info-card p {
+  color: #FFF;
+  font-size: 20px;
+}
+
+.images-container {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.images-container .course-place {
+  border-radius: 10px;
+  width: calc((100% / 2) - 20px);
+  height: 350px;
+  background-image: url('./assets/course_place.png');
+}
+
+.images-container .course-room {
+  border-radius: 10px;
+  width: calc((100% / 2) - 20px);
+  height: 350px;
+  background-image: url('./assets/tech_room.png');
+}
+
+.course-link {
+  width: 200px;
+  color: #FFF;
+  background-color: #1D4975;
+  padding: 10px 20px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.footer {
+  width: 100%;
+  min-height: 60px;
+  background: #1D4975;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer p {
+  color: #FFF;
+  font-size: 15px;
+}
